@@ -7,12 +7,12 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 @Getter
 @Setter
-@Document
+@Document(collection = "category")
 public class Categories {
 
 
     @Id
-    private Integer categoryId;
+    private String categoryId;
     private String categoryName;
 
 }

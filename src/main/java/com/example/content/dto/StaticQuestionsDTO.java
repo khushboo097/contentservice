@@ -3,11 +3,12 @@ package com.example.content.dto;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.ArrayList;
+
 @Getter
 @Setter
-public class CategoriesDTO {
+public class StaticQuestionsDTO {
 
     private String categoryId;
-    private String categoryName;
-
+    private ArrayList<String> questionIds;
 }

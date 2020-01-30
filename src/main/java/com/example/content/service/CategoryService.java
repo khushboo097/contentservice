@@ -9,5 +9,5 @@ import java.util.ArrayList;
 public interface CategoryService {
 
     Iterable<Categories> getAllCategories();
-
+    void save(CategoriesDTO categoriesDTO);
 }

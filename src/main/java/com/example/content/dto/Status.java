@@ -2,12 +2,12 @@ package com.example.content.dto;
 
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 @Getter
 @Setter
-public class CategoriesDTO {
+@ToString
+public class Status {
 
-    private String categoryId;
-    private String categoryName;
-
+    public boolean status;
 }
